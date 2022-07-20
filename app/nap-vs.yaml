@@ -6,8 +6,8 @@ spec:
   host: App-52-226-195-206.nip.io
   tls:
     secret: juice-shop-secret
-    policies:
-      - name: nap-policy
+  policies:
+    - name: nap-policy
   ingressClassName: hernandez-nginx-ingress  
   upstreams:
   - name: juice-shop
